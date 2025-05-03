@@ -4,12 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - HeroBiz Bootstrap Template</title>
+  <title>Tidy Kiwi</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-	<!-- Place the first <script> tag in your HTML's <head> -->
-	<script src="https://cdn.tiny.cloud/1/y1kxx47nlf10jfjh6fx4n27r4ka773jdj8a5xmcnoi2anlab/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-
+	
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -37,36 +35,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
-<body>
-	<!-- Place the first <script> tag in your HTML's <head> -->
-<script src="https://cdn.tiny.cloud/1/y1kxx47nlf10jfjh6fx4n27r4ka773jdj8a5xmcnoi2anlab/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+  <!-- Place the first <script> tag in your HTML's <head> -->
+	<script src="https://cdn.tiny.cloud/1/y1kxx47nlf10jfjh6fx4n27r4ka773jdj8a5xmcnoi2anlab/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
-<!-- Place the following <script> and <textarea> tags your HTML's <body> -->
-<script>
-  tinymce.init({
-    selector: 'textarea',
-    plugins: [
-      // Core editing features
-      'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
-      // Your account includes a free trial of TinyMCE premium features
-      // Try the most popular premium features until May 17, 2025:
-      'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown','importword', 'exportword', 'exportpdf'
-    ],
-    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-    tinycomments_mode: 'embedded',
-    tinycomments_author: 'Author name',
-    mergetags_list: [
-      { value: 'First.Name', title: 'First Name' },
-      { value: 'Email', title: 'Email' },
-    ],
-    ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
-  });
-</script>
-<textarea>
-  Welcome to TinyMCE!
-</textarea>
-</body>
+</head>
+
+
+
 
 <body class="index-page">
 
@@ -1497,6 +1472,31 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+	<!-- Place the following <script> and <textarea> tags your HTML's <body> -->
+	<script>
+  tinymce.init({
+    selector: 'textarea',
+    plugins: [
+      // Core editing features
+      'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
+      // Your account includes a free trial of TinyMCE premium features
+      // Try the most popular premium features until May 17, 2025:
+      'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown','importword', 'exportword', 'exportpdf'
+    ],
+    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+    tinycomments_mode: 'embedded',
+    tinycomments_author: 'Author name',
+    mergetags_list: [
+      { value: 'First.Name', title: 'First Name' },
+      { value: 'Email', title: 'Email' },
+    ],
+    ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+  });
+</script>
+<textarea>
+  Welcome to TinyMCE!
+</textarea>
 
 </body>
 
